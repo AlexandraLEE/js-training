@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/nan-academy/js-training.svg?branch=master)](https://travis-ci.org/nan-academy/js-training)
+[![Build Status](https://travis-ci.org/AlexandraLEE/js-training.svg?branch=master)](https://travis-ci.org/nan-academy/js-training)
 ## Setup
 First, [**fork**](https://github.com/nan-academy/js-training/fork?fragment=1) this repository.
 ### globals dependencies
@@ -152,7 +152,7 @@ the style
 
 ## Automated test
 We recommand to use [Travis](https://travis-ci.org) to automatise the testing phase, allow this repo and add this code in your README
-`[![Build Status](https://travis-ci.org/GITHUB_LOGIN/js-training.svg?branch=master)](https://travis-ci.org/GITHUB_LOGIN/js-training)`
+`[![Build Status](https://travis-ci.org/AlexandraLEE/js-training.svg?branch=master)](https://travis-ci.org/AlexandraLEE/js-training)`
 by remplacing GITHUB_LOGIN by your github login
 
 ## Contribute

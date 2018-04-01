@@ -6,6 +6,11 @@
  *
  */
 
+function capitalize(string) {
+  return string.charAt(0).toUpperCase() + string.slice(1).toLowerCase();
+
+}
+
 
 //* Begin of tests
 const assert = require('assert')
