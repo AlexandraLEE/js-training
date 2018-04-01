@@ -9,6 +9,11 @@
 
 // Your code :
 
+const str = "It is Easter";
+const num = 88;
+const bool = true;
+const undef = undefined;
+
 
 //* Begin of tests
 const assert = require('assert')
