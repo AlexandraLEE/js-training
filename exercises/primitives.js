@@ -9,9 +9,9 @@
 
 // Your code :
 
-const str = "It is Easter";
-const num = 88;
-const bool = true;
+const str = "1337";
+const num = 42;
+const bool = false;
 const undef = undefined;
 
 
