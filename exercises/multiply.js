@@ -9,7 +9,17 @@
  */
 
 // Your code :
+const multiply = (a, b) => {
+  let count = 0
+  let result = b
 
+  while (count < a) {
+    count = count - 1
+    result = result + b
+  }
+
+  return result
+}
 //* Begin of tests
 const assert = require('assert')
 
