@@ -11,18 +11,21 @@
  * @notions Functions, If-Else
  */
 // Your code :
+
 const sign = n => {
   if (n < 0) {
-    return '-1'
+    return '-1';
   }
   if (n > 0) {
-    return '1'
+    return '1';
+  } else (n === 0) {
+    return '0';
   }
-  if (n = 0) {
-    return 0
 }
+
 //* Begin of tests
 const assert = require('assert')
+
 assert.strictEqual(typeof sign, 'function')
 assert.strictEqual(sign.toString().includes('Math.sign'), false)
 assert.strictEqual(sign.length, 1)
@@ -31,4 +34,4 @@ assert.strictEqual(sign(-2), -1)
 assert.strictEqual(sign(10), 1)
 assert.strictEqual(sign(0), 0)
 assert.strictEqual(sign(132), 1)
-// End of tests 
+// End of tests
