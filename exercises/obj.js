@@ -15,7 +15,6 @@ const obj = {
   undef: undefined,
 }
 
-
 //* Begin of tests
 const assert = require('assert')
 
