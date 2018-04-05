@@ -19,7 +19,7 @@ const multiply = (a, b) => {
       }
       return result;
     } else {
-      while (a < 0) {
+      while (a < i) {
         result = result + b;
         i--
       }
