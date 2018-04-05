@@ -41,4 +41,4 @@ const multiply = (a, b) => {
     assert.strictEqual(multiply(123, -22), -2706)
     assert.strictEqual(multiply(-22, 123), -2706)
     assert.strictEqual(multiply(-22, -123), 2706)
-    // End of tests */
+// End of tests */
