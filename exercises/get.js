@@ -17,6 +17,15 @@ const sourceObject = {
 
 // Your code :
 
+  for (let property of Object.values(sourceObject)) {
+    // ... return the values
+    return property;
+  }
+
+
+
+
+
 //* Begin of tests
 const assert = require('assert')
 
