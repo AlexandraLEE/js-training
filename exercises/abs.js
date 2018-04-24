@@ -11,7 +11,14 @@
  */
 
 // Your code :
-const abs = a => a > 0 ? a : -a
+
+function abs(a) {
+  if (a>0) {
+    return a;
+  }else if(a<0) {
+    return a;
+  }
+}return 0;
 
 //* Begin of tests
 const assert = require('assert')

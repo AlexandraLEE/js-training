@@ -9,26 +9,39 @@
  */
 
 // Your code :
-const multiply = (a, b) => {
-  let result = 0;
-  let i = 0;
-
-  if (a > 0) {
-    while (a > i) {
-      result = result + b;
-      i++;
-    }
-
-    return result
-  } else {
-
-    while (a < i) {
-      result = result + b;
-      i--;
-    }
-    return -result;
+function multiply (x, y) {
+result;
+  
+  if (x === 1) {
+    return y;
   }
+  if (y === 1) {
+    return x;
+  }
+  if (x === 0) {
+    return 0;
+  }
+  if (y === 0) {
+    return 0;
+  }
+
+var result = 0;
+  if (x > 0) {
+    let i = 0;
+    while (x > i) {
+      result = result + y;
+      i++;
+    }return result
+  }  else {
+
+      let i = 0;
+        while (x < i) {
+          result = result + y;
+          i--;
+      }
+    }return -result
 }
+
 //* Begin of tests
 const assert = require('assert')
 
