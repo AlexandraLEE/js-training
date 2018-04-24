@@ -24,7 +24,7 @@ const multiply = (a, b) => {
 
     while (a < i) {
       result = result + b;
-      i--
+      i--;
     }
     return -result;
   }
