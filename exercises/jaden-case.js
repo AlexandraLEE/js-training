@@ -8,10 +8,19 @@
  *
  */
 
-
+function jadenCase(Phrase) {
+  let splitPhrase = Phrase.toLowerCase().split(' ');
+  for (let i = 0; i < splitPhrase.length; i++) {
+    splitPhrase[i] = splitPhrase[i].charAt(0).toUpperCase() + splitPhrase[i].substring(
+      1);
+  }
+  return splitPhrase.join(' ');
+}
 
 //* Begin of tests
 const assert = require('assert')
 
-assert.fail('You must write your own tests')
+assert.strictEqual(typeof jadenCase, 'function')
+assert.strictEqual(jadenCase('Stay calm and code'), 'Stay Calm And Code')
+assert.strictEqual(jadenCase('When is lunch?'), 'When Is Lunch?')
 // End of tests */

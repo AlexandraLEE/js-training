@@ -11,6 +11,23 @@
 
 // Your code :
 
+let multiply = function (x,y) {
+
+    if(x == 0 || y == 0) {
+      return 0;
+    } else if (x > 0  && y < 0) {
+      return  (-x) + multiply (x, y + 1);
+    } else if (x < 0 && y > 0 ) {
+      return x + multiply (x, y - 1);
+
+    } else if (x < 0 && y < 0) {
+      return (-x) + multiply (x, y + 1);
+    } else {
+      return x + multiply(x, y - 1);
+    }
+ }
+
+
 //* Begin of tests
 const assert = require('assert')
 
@@ -24,7 +41,7 @@ assert.strictEqual(multiply.toString().includes('/'), false)
 assert.strictEqual(multiply(34, 78), 2652)
 assert.strictEqual(multiply(123, 0), 0)
 assert.strictEqual(multiply(0, -230), 0)
-assert.strictEqual(multiply(0, 0), 0)
+assert.strictEqual(multiply(0, 0), 0) 
 assert.strictEqual(multiply(123, -22), -2706)
 assert.strictEqual(multiply(-22, 123), -2706)
 assert.strictEqual(multiply(-22, -123), 2706)

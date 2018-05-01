@@ -11,7 +11,7 @@
 // Your code :
 function multiply (x, y) {
 result;
-  
+
   if (x === 1) {
     return y;
   }
@@ -34,11 +34,11 @@ var result = 0;
     }return result
   }  else {
 
-      let i = 0;
-        while (x < i) {
-          result = result + y;
-          i--;
-      }
+    let i = 0;
+      while (x < i) {
+        result = result + y;
+        i--;
+    }
     }return -result
 }
 
